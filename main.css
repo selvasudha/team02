@@ -1,0 +1,59 @@
+body{
+    background-image: url('images/header-background.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+    
+}
+.home-button{
+    text-align: center;
+}
+.newuser-button,.login-button{
+    border: 1px solid #6ab446;
+	background: #6ab446;
+	border-radius: 20px;
+    font-size: 40px;
+	color: #fff;
+    margin-top: 200px;
+}
+
+.page-footer {
+	background-color: #222;
+	
+	/*padding: 10px 0 10px;*/
+    margin-top: 250px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+.header {
+	color: white;
+    font-size: 70px;
+    font-family:monospace;
+   
+}
+.register{
+    background-image: url('images/form-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(192,192,192,0.3);
+}
+.header-reg{
+    color: black;
+     font-size: 70px;
+    font-family:monospace;
+}
+form-submit{
+    margin-left: 50%;
+}
