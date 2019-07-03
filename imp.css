@@ -1,0 +1,22 @@
+.center {
+  margin: auto;
+  width: 30%;
+  background-color: #808080;
+  padding: 20px;
+}
+label{
+	display:inline-block;
+	width:200px;
+	margin-right:30px;
+	text-align:left;
+	vertical-align:top;
+}
+.container{
+	padding-bottom:30px;
+	 padding: 15px;
+	 font-weight: bold;
+}
+.follow{
+	padding-bottom:30px;
+	 padding: 15px;
+}
