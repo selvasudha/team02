@@ -1,5 +1,12 @@
-body{
+.login-new{
     background-image: url('images/header-background.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+    
+}
+.pre-paid{
+    background-image: url('images/form-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -54,6 +61,48 @@ body{
      font-size: 70px;
     font-family:monospace;
 }
-form-submit{
+.form-submit{
     margin-left: 50%;
+}
+.form-group{
+    width:60%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+
+/*.rate{
+    font-size:40px;
+    color: black;
+    font-family: monospace;
+}
+.rate-display{
+   
+    margin-top: 40px;
+}
+.quick{
+    font-size: 60px;
+    font-family: cursive;
+    margin-left: 10%;
+}
+.rate1{
+    margin-left: 100px;
+}*/
+.rate{
+    
+    display: inline;
+    border: 3px solid black;
+    padding:40px 40px 40px;
+    font-family:monospace;
+    font-size: 20px;
+    border-color:#33cc33;
+}
+    
+.rate-display{
+   margin-top: 110px;
+    margin-left: 10%;
+}
+.quick{
+    font-size: 60px;
+    font-family: cursive;
 }
