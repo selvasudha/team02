@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.row{
-	display:block;
-	/* display:inline-block; */
+.star{
+	/* display:block; */
+	display:inline-block;
 }
 .col{
-	display:block;
-	/* display:inline-block; */
+	/* display:block; */
+	display:inline-block; 
 	margin-top:60px;
 	
 }
@@ -59,6 +59,27 @@
 	margin-right:30px;
 	text-align:left;
 	vertical-align:top;
+}
+.navbar {
+	background: #D3D3D3;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
 }
 /* .rate input{
 	float: right;
